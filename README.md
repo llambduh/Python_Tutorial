@@ -12,9 +12,9 @@ This repository contains all the resources, code examples, and explanations you'
 
 ## Table of Contents
 
-- [Hello World](#hello-world)
-- [Variables](#variables)
-- [Input and Output](#input-output)
+- [Hello World](https://github.com/llambduh/Python_Tutorial/blob/main/src/Hello_World/hello_world.py)
+    - [Input and Output](https://github.com/llambduh/Python_Tutorial/blob/main/src/Hello_World/io.py)
+- [Variables](https://github.com/llambduh/Python_Tutorial/blob/main/src/Variables/variables.py)
 - [Operators](#operators)
 - [Control Flow](#control-flow)
     - [if, elif, and else statements](#ifelse-statement)
