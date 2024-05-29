@@ -14,7 +14,8 @@ This repository contains all the resources, code examples, and explanations you'
 
 - [Hello World](https://github.com/llambduh/Python_Tutorial/blob/main/src/Hello_World/hello_world.py)
     - [Input and Output](https://github.com/llambduh/Python_Tutorial/blob/main/src/Hello_World/io.py)
-- [Variables](https://github.com/llambduh/Python_Tutorial/blob/main/src/Variables/variables.py)
+    - [Variables](https://github.com/llambduh/Python_Tutorial/blob/main/src/Hello_World/variables.py)
+    - [Comments](https://github.com/llambduh/Python_Tutorial/blob/main/src/Hello_World/comments.py)
 - [Operators](#operators)
 - [Control Flow](#control-flow)
     - [if, elif, and else statements](#ifelse-statement)
