@@ -1,3 +1,3 @@
-# hello_world.py
+""" Hello World Example """
 
 print("hello world")
