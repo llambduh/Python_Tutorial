@@ -21,30 +21,29 @@ for row in matrix:
     for num in row:
         print(num)
 
-# Enumerate over a list
-for index, mixed in enumerate(mixed):
-    print(index, mixed)
-
-# Zip multiple lists
-names = ['Alice', 'Bob', 'Charlie']
-ages = [25, 30, 35]
-for name, age in zip(names, ages):
-    print(name, age)
-
 # List comprehension
 squares = [x ** 2 for x in range(10)]
 print(squares)
+
+# List comprehension with conditions
+even_squares = [x**2 for x in range(1, 6) if x % 2 == 0]
+print(even_squares)
 
 
 # List Operations
 list1 = [1, 2, 3]
 list2 = [4, 5, 6]
+nested_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
 first_element = list1[0] # Indexing ([]): Accesses elements by their index.
+last_element = list1[-1] # Negative indexing
+list1[0] = 10 # Changing values by index
+nested_element = nested_list[1][2] # Accessing nested lists
 sub_list = list1[1:3] # Slicing ([:]): Retrieves a subset of the list.
+shallow_copy = list1[:] # An empty slice is used to create a shallow copy of a list or a sequence.
 combined_list = list1 + list2  # Concatenation (+): Combines two lists into one.
 repeated_list = list1 * 2  # Repetition (*): Repeats the elements of a list a given number of times.
 exists = 2 in list1  # Membership (in, not in): Checks if an element is present in the list.
-not_exists = 4 not in list1 
+doesnt_exists = 4 not in list1 
 
 
 # List Methods
