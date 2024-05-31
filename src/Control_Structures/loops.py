@@ -34,6 +34,10 @@ for number in range(1, 11):
 else:
     print("No even number found between 1 and 10")
 
+# Iterating over a string
+word = "hello"
+for char in word:
+    print(char)
 
 # break, continue, pass statements
 for number in range(1, 11):
@@ -49,7 +53,6 @@ for number in range(1, 11):
         break # Ends loop when this condition is met. 
     elif number > 8:
         print("Number greater than 8 found:", number)
-
 
 # nested loops
 rows = 5
