@@ -29,7 +29,6 @@ print(a >= b)  # Greater Than or Equal To
 print(a <= b)  # Less Than or Equal To
 
 
-
 """Logical operators
 symbols or words that connect two or more 
 expressions to produce a compound expression
