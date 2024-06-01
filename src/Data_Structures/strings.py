@@ -3,14 +3,17 @@ a sequence of characters and can contain letters, numbers, symbols and even spac
 It must be enclosed in quotation marks for it to be recognized as a string.
 """
 
-# String Formatting options
 # Review of basics
 name = "Llambduh"
 age = 32
 print('Hello, ' + name) # Concatenation using the '+" operator
 print("Name:", name, "Age:", age) # Using Comma-Separated Values to print variables
+text = input("Enter something: ")  # input(String): Prompts the user for input and returns it as a string
+print(text) 
 
-# String Formatting with % Operator
+
+# String formatting
+# String formatting with % Operator
 print("Hello, %s!" % name) # %s: Strings
 print("Age: %d" % age) # %d: Decimal integers (base-10).
 
@@ -48,7 +51,7 @@ txt3 = "My name is {}, I'm {}\n".format("John", 32)
 txt4 = "I'm {1}, and my name is {0}\n".format("John", 32)
 print("Print multiple lines:\n", txt1, txt2, txt3, txt4) # Print multiple variables on one line
 
-#  f-strings (formatted string literals)
+# f-strings (formatted string literals)
 name = "Alice"
 age = 30
 print(f"Name: {name}, Age: {age}")  # Output: Name: Alice, Age: 30
@@ -71,6 +74,18 @@ unicode_16bit = "This is a Unicode character with 16-bit hex value 03B1: \u03B1"
 unicode_32bit = "This is a Unicode character with 32-bit hex value 0001F600: \U0001F600"
 char_8bit_hex = "This is a character with 8-bit hex value 41: \x41"
 raw_string = r"This is a raw string: \n will not be interpreted as a newline"
+
+
+# String functions
+string_value = str(123)  # str(Number): Converts the number 123 to a string
+length = len("hello")  # len("hello"): Returns the length of the string
+result = eval("len('hello')")  # eval(String): Evaluates the string expression, result == 5
+repr_value = repr("hello")  # repr(String): Returns a string representation of the string
+ascii_string = ascii("helloäöü")  # ascii(String): Returns a string with non-ASCII characters escaped
+char = chr(97)  # chr(Integer): Returns the string representing the character 'a'
+unicode_point = ord('a')  # ord(String): Returns the Unicode code point of 'a'
+byte_text = bytes("hello", 'utf-8')  # bytes(String, Encoding): Converts the string to bytes
+bytearray_text = bytearray("hello", 'utf-8')  # bytearray(String, Encoding): Converts the string to bytearray
 
 
 # String methods
