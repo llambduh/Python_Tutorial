@@ -11,6 +11,11 @@ single_element = (1,) # A single element tuple needs a comma after the element
 coordinates = 1, 2, 3 # Without parentheses
 nested_tuple = (1, (2, 3), 4) # Nested Tuples: Tuples can contain other tuples
 
+# Create Tuples with String methods
+string = "Subscribe to Llambduh"
+string_tuple = string.partition('to') # partition(separator) - Takes a string parameter separator that separates the string at the first occurrence of it
+rstring_tuple = string.rpartition('to') # rpartition(separator) - Takes a string parameter separator that separates the string at the last occurrence of it.
+
 
 # Accessing Elements
 print(numbers[0]) # Access elements using indexing
